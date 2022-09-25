@@ -1038,9 +1038,9 @@
       "label": "Sidebar 2",
       "config": {
         "direction": "VERTICAL",
-        "collapseSide": "SECOND",
+        "collapseSide": "FIRST",
         "overlay": false,
-        "size": "457px",
+        "size": "432px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1053,9 +1053,9 @@
         "toggleBtn": {
           "visible": true,
           "iconSource": 0,
-          "icon": "DOWN",
+          "icon": "UP",
           "offsetX": 0,
-          "offsetY": -15,
+          "offsetY": 15,
           "position": "CENTER",
           "iconSize": 17,
           "width": 60,
@@ -1085,12 +1085,12 @@
           },
           "expandStyle": {
             "style": {
-              "borderRadius": "92px 92px 0 0"
+              "borderRadius": "0 0 92px 92px"
             }
           },
           "collapseStyle": {
             "style": {
-              "borderRadius": "92px 92px 0 0"
+              "borderRadius": "0 0 92px 92px"
             }
           }
         },
@@ -1359,7 +1359,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664142473893,
+  "timestamp": 1664143483107,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {
