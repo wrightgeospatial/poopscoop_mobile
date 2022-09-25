@@ -1,9 +1,9 @@
 {
 	"darkTheme": true,
 
-	"body": {"fontSize": "17px"},
-	"form": {"fontSize": "17px"},
-	"input": {"fontSize": "17px"},
-	"select": {"fontSize": "17px"}
+	"body": {"fontSize": "20px"},
+	"form": {"fontSize": "20px"},
+	"input": {"fontSize": "20px"},
+	"select": {"fontSize": "20px"}
 
 }
