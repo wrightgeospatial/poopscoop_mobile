@@ -1040,7 +1040,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "527px",
+        "size": "457px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1344,7 +1344,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com"
+    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Get This Work",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1664057589813.png"
   },
   "sharedThemeVariables": null,
   "pageStructure": [
@@ -1353,7 +1359,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664140415017,
+  "timestamp": 1664142473893,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {
