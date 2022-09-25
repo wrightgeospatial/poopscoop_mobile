@@ -312,7 +312,7 @@
   "mainSizeMode": "LARGE",
   "theme": "themes/poopscoop-theme/",
   "forBuilderAttributes": {
-    "lockLayout": true
+    "lockLayout": false
   },
   "template": "blankfullscreen",
   "widgets": {
@@ -552,6 +552,325 @@
                 ]
               }
             ]
+          },
+          {
+            "id": "dataSource_4-1-dataView_2-3",
+            "name": "Stops",
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-1-dataView_2",
+              "mainDataSourceId": "dataSource_4-1",
+              "rootDataSourceId": "dataSource_4",
+              "dataViewId": "dataView_2"
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID_1",
+                "name": "OBJECTID_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID_1",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "OBJECTID",
+                "format": null
+              },
+              {
+                "jimuName": "Route",
+                "name": "Route",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Route",
+                "format": null
+              },
+              {
+                "jimuName": "COORDS",
+                "name": "COORDS",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "COORDS",
+                "format": null
+              },
+              {
+                "jimuName": "LAT",
+                "name": "LAT",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LAT",
+                "format": null
+              },
+              {
+                "jimuName": "LONG",
+                "name": "LONG",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LONG",
+                "format": null
+              },
+              {
+                "jimuName": "SEQ_NUM",
+                "name": "SEQ_NUM",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "SEQ_NUM",
+                "format": null
+              },
+              {
+                "jimuName": "waze_url",
+                "name": "waze_url",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "waze_url",
+                "format": null
+              },
+              {
+                "jimuName": "Waste_Level",
+                "name": "Waste_Level",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Waste Level",
+                "format": null
+              },
+              {
+                "jimuName": "Repairs_Needed",
+                "name": "Repairs_Needed",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Repairs Needed",
+                "format": null
+              },
+              {
+                "jimuName": "Bags",
+                "name": "Bags",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Bags",
+                "format": null
+              },
+              {
+                "jimuName": "Admin",
+                "name": "Admin",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Admin",
+                "format": null
+              },
+              {
+                "jimuName": "stationID",
+                "name": "stationID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "stationID",
+                "format": null
+              },
+              {
+                "jimuName": "add_pic",
+                "name": "add_pic",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "add_pic",
+                "format": null
+              },
+              {
+                "jimuName": "Station_Type",
+                "name": "Station_Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Station Type",
+                "format": null
+              },
+              {
+                "jimuName": "Frequency",
+                "name": "Frequency",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Frequency",
+                "format": null
+              },
+              {
+                "jimuName": "Service_day",
+                "name": "Service_day",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Service day",
+                "format": null
+              },
+              {
+                "jimuName": "Sequence_Text",
+                "name": "Sequence_Text",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Sequence_Text",
+                "format": null
+              },
+              {
+                "jimuName": "x",
+                "name": "x",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "x",
+                "format": null
+              },
+              {
+                "jimuName": "y",
+                "name": "y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "y",
+                "format": null
+              },
+              {
+                "jimuName": "Pic",
+                "name": "Pic",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Share Pic",
+                "format": null
+              },
+              {
+                "jimuName": "dispenser",
+                "name": "dispenser",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Dispenser Type",
+                "format": null
+              },
+              {
+                "jimuName": "RTE_Sequence",
+                "name": "RTE_Sequence",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Route",
+                "format": null
+              },
+              {
+                "jimuName": "start",
+                "name": "start",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Start",
+                "format": null
+              },
+              {
+                "jimuName": "stop_",
+                "name": "stop_",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Stop",
+                "format": null
+              },
+              {
+                "jimuName": "image_",
+                "name": "image_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "image",
+                "format": null
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "CreationDate",
+                "name": "CreationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "CreationDate",
+                "format": null
+              },
+              {
+                "jimuName": "Creator",
+                "name": "Creator",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Creator",
+                "format": null
+              },
+              {
+                "jimuName": "EditDate",
+                "name": "EditDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "EditDate",
+                "format": null
+              },
+              {
+                "jimuName": "Editor",
+                "name": "Editor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Editor",
+                "format": null
+              },
+              {
+                "jimuName": "bag_type",
+                "name": "bag_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Bag Type",
+                "format": null
+              },
+              {
+                "jimuName": "urlp",
+                "name": "urlp",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "urlp",
+                "format": null
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "RTE_Sequence",
+                "name": "RTE_Sequence",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Route",
+                "format": null,
+                "editAuthority": true
+              },
+              {
+                "jimuName": "EditDate",
+                "name": "EditDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "EditDate",
+                "format": null,
+                "editAuthority": false
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": false,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-1-dataView_2",
+                "mainDataSourceId": "dataSource_4-1",
+                "rootDataSourceId": "dataSource_4",
+                "dataViewId": "dataView_2",
+                "fields": [
+                  "RTE_Sequence",
+                  "EditDate"
+                ]
+              }
+            ]
           }
         ],
         "arrangeType": "TABS"
@@ -562,6 +881,12 @@
           "dataSourceId": "dataSource_4-0",
           "mainDataSourceId": "dataSource_4-0",
           "rootDataSourceId": "dataSource_4"
+        },
+        {
+          "dataSourceId": "dataSource_4-1-dataView_2",
+          "mainDataSourceId": "dataSource_4-1",
+          "rootDataSourceId": "dataSource_4",
+          "dataViewId": "dataView_2"
         }
       ],
       "enableDataAction": false
@@ -575,7 +900,7 @@
         "expression": "<p>https://pst-lovesdogs.maps.arcgis.com/apps/dashboards/b5536442c58748b5ac03c6e431b745c4#route=<exp data-uniqueid=\"5ded7071_b9ff_387e_2fb1_e5ea6d18e598\" data-dsid=\"dataSource_4-1\" data-expression=\"%7B%22name%22%3A%22%7BRoute%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRoute%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-1-selection%22%2C%22jimuFieldName%22%3A%22Route%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Route}</span>﻿</exp></p>",
         "enableLabel": true,
         "autoRefresh": true,
-        "autoInterval": 1,
+        "autoInterval": 0.5,
         "label": "Make Selection"
       },
       "id": "widget_92",
@@ -890,7 +1215,7 @@
               "orderBy": [
                 {
                   "jimuFieldName": "EditDate",
-                  "order": "DESC"
+                  "order": "ASC"
                 }
               ]
             }
@@ -907,7 +1232,7 @@
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "filter-data-record-action-1663992553017",
+          "actionId": "filter-data-record-action-1664124956008",
           "messageWidgetId": "widget_91",
           "actionName": "filter data record action",
           "description": null,
@@ -953,9 +1278,9 @@
           ]
         },
         {
-          "actionId": "select-data-record-action-1663992582623",
+          "actionId": "filter-data-record-action-1664125052715",
           "messageWidgetId": "widget_91",
-          "actionName": "select data record action",
+          "actionName": "filter data record action",
           "description": null,
           "config": {
             "messageUseDataSource": {
@@ -967,15 +1292,17 @@
               ]
             },
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_4-1",
+              "dataSourceId": "dataSource_4-1-dataView_2",
               "mainDataSourceId": "dataSource_4-1",
+              "dataViewId": "dataView_2",
               "rootDataSourceId": "dataSource_4",
               "fields": [
                 "Route"
               ]
             },
             "sqlExprObj": null,
-            "enabledDataRelationShip": true
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
           },
           "version": "1.9.0",
           "useDataSources": [
@@ -988,20 +1315,42 @@
               ]
             },
             {
-              "dataSourceId": "dataSource_4-1",
+              "dataSourceId": "dataSource_4-1-dataView_2",
               "mainDataSourceId": "dataSource_4-1",
+              "dataViewId": "dataView_2",
               "rootDataSourceId": "dataSource_4",
               "fields": [
                 "Route"
               ]
             }
           ]
+        },
+        {
+          "actionId": "filter-data-record-action-1664125209014",
+          "messageWidgetId": "widget_91",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.9.0",
+          "useDataSources": []
         }
       ]
     }
   },
   "attributes": {
-    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com"
+    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Get This Work",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1664057589813.png"
   },
   "sharedThemeVariables": null,
   "pageStructure": [
@@ -1010,7 +1359,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664072936618,
+  "timestamp": 1664140415017,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {
