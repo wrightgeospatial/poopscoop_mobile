@@ -1039,7 +1039,7 @@
       "config": {
         "direction": "VERTICAL",
         "collapseSide": "FIRST",
-        "overlay": false,
+        "overlay": true,
         "size": "432px",
         "divider": {
           "visible": true,
@@ -1049,7 +1049,7 @@
             "width": "1px"
           }
         },
-        "resizable": true,
+        "resizable": false,
         "toggleBtn": {
           "visible": true,
           "iconSource": 0,
@@ -1359,7 +1359,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664143483107,
+  "timestamp": 1664163569490,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {
