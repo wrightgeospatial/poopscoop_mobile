@@ -3,7 +3,7 @@
 
 	"body": {"fontSize": "16px"},
 	"form": {"fontSize": "100%"},
-	"input": {"fontSize": "50px"},
-	"select": {"fontSize": "50px"}
+	"input": {"fontSize": "100%"},
+	"select": {"fontSize": "100%"}
 
 }
