@@ -2,10 +2,13 @@
 <html lang="en-us">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 	<title>Get This Work</title>
 	<link rel="shortcut icon" href="assets/exb.ico">
-	<base href="./cdn/6/" />
+	<base href="./cdn/8/" />
 	<style>
 		html {
 			scrollbar-color: var(--light-600) var(--light-200);
@@ -17,10 +20,20 @@
 			height: 100%;
 			margin: 0;
 			overflow: hidden;
-			font-size: 16px;
 		}
 
+		html.scrollable {
+			overflow: auto;
+		}
 
+		html.scrollable body {
+			overflow: unset;
+		}
+
+		html.scrollable body,
+		html.scrollable #app {
+			height: auto;
+		}
 
 		#loading {
 			width: 100vw;
@@ -33,93 +46,18 @@
 			display: none;
 		}
 
-		/*** iPhone and iOS Form Input Zoom Fixes ***/
-		/* Fix Input Zoom on devices older than iPhone 5: */
-		@media screen and (device-aspect-ratio: 2/3) {
-
-			select,
-			textarea,
-			input[type="text"],
-			input[type="password"],
-			input[type="datetime"],
-			input[type="datetime-local"],
-			input[type="date"],
-			input[type="month"],
-			input[type="time"],
-			input[type="week"],
-			input[type="number"],
-			input[type="email"],
-			input[type="url"] {
-				font-size: 16px;
-			}
+		select {
+			font-size: 50px;
 		}
 
-		/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
-		@media screen and (device-aspect-ratio: 40/71) {
-
-			select,
-			textarea,
-			input[type="text"],
-			input[type="password"],
-			input[type="datetime"],
-			input[type="datetime-local"],
-			input[type="date"],
-			input[type="month"],
-			input[type="time"],
-			input[type="week"],
-			input[type="number"],
-			input[type="email"],
-			input[type="url"] {
-				font-size: 16px;
-			}
-		}
-
-		/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
-		@media screen and (device-aspect-ratio: 375/667) {
-
-			select,
-			textarea,
-			input[type="text"],
-			input[type="password"],
-			input[type="datetime"],
-			input[type="datetime-local"],
-			input[type="date"],
-			input[type="month"],
-			input[type="time"],
-			input[type="week"],
-			input[type="number"],
-			input[type="email"],
-			input[type="tel"],
-			input[type="url"] {
-				font-size: 16px;
-			}
-		}
-
-		/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
-		@media screen and (device-aspect-ratio: 9/16) {
-
-			select,
-			textarea,
-			input[type="text"],
-			input[type="password"],
-			input[type="datetime"],
-			input[type="datetime-local"],
-			input[type="date"],
-			input[type="month"],
-			input[type="time"],
-			input[type="week"],
-			input[type="number"],
-			input[type="email"],
-			input[type="tel"],
-			input[type="url"] {
-				font-size: 16px;
-			}
+		input {
+			font-size: 50px;
 		}
 	</style>
 	<script>/*
-			  Please make sure the script is in <head>, this can help API module load find the correct "insertPointSibling"
-			  See dojo/dojo.js line 1724-1728
-			  */
+		  Please make sure the script is in <head>, this can help API module load find the correct "insertPointSibling"
+		  See dojo/dojo.js line 1724-1728
+		  */
 		var mountPath = getPath();
 		var isOutOfExb = true;
 
@@ -130,7 +68,7 @@
 		// isDevEdition is set to false in webpack, developer edition node server will replace it to true
 		var isDevEdition = false;
 
-		var buildNumber = '6';
+		var buildNumber = '8';
 		var isBuilder = false;
 		var isSite = false;
 

@@ -1038,7 +1038,7 @@
       "label": "Sidebar 2",
       "config": {
         "direction": "VERTICAL",
-        "collapseSide": "FIRST",
+        "collapseSide": "SECOND",
         "overlay": true,
         "size": "432px",
         "divider": {
@@ -1049,13 +1049,13 @@
             "width": "1px"
           }
         },
-        "resizable": false,
+        "resizable": true,
         "toggleBtn": {
           "visible": true,
           "iconSource": 0,
-          "icon": "UP",
+          "icon": "DOWN",
           "offsetX": 0,
-          "offsetY": 15,
+          "offsetY": -15,
           "position": "CENTER",
           "iconSize": 17,
           "width": 60,
@@ -1085,14 +1085,15 @@
           },
           "expandStyle": {
             "style": {
-              "borderRadius": "0 0 92px 92px"
+              "borderRadius": "92px 92px 0 0"
             }
           },
           "collapseStyle": {
             "style": {
-              "borderRadius": "0 0 92px 92px"
+              "borderRadius": "92px 92px 0 0"
             }
-          }
+          },
+          "template": "default"
         },
         "defaultState": 0
       },
@@ -1344,7 +1345,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com"
+    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Get This Work",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1664057589813.png"
   },
   "sharedThemeVariables": null,
   "pageStructure": [
@@ -1353,7 +1360,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664163569490,
+  "timestamp": 1664167685594,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {
