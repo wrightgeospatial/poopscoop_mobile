@@ -1,0 +1,30 @@
+{
+  "1653372501577": {
+    "originalName": "app0.png",
+    "fileName": "1653372501577.png",
+    "size": 449948,
+    "url": "${appResourceUrl}/images/widget_32/1653372501577.png",
+    "created": 1653372501577,
+    "resourcesPrefix": "images/widget_32",
+    "referedIds": [],
+    "originId": "1653372501577",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 855,
+    "originalHeight": 720
+  },
+  "1660593504784": {
+    "originalName": "00after.png",
+    "fileName": "1660593504784.png",
+    "size": 349801,
+    "url": "${appResourceUrl}/images/widget_54/1660593504784.png",
+    "created": 1660593504784,
+    "resourcesPrefix": "images/widget_54",
+    "referedIds": [],
+    "originId": "1660593504784",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 330,
+    "originalHeight": 388
+  }
+}
