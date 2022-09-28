@@ -276,9 +276,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "9.8%",
+            "bottom": "0.2%",
             "width": "100.0%",
-            "height": "90.2%"
+            "height": "99.8%"
           },
           "widgetId": "widget_93",
           "setting": {
@@ -287,8 +287,11 @@
               "left": true,
               "top": false,
               "bottom": true
-            }
-          }
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
@@ -900,7 +903,7 @@
         "expression": "<p>https://pst-lovesdogs.maps.arcgis.com/apps/dashboards/b5536442c58748b5ac03c6e431b745c4#route=<exp data-uniqueid=\"5ded7071_b9ff_387e_2fb1_e5ea6d18e598\" data-dsid=\"dataSource_4-1\" data-expression=\"%7B%22name%22%3A%22%7BRoute%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRoute%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-1-selection%22%2C%22jimuFieldName%22%3A%22Route%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Route}</span>﻿</exp></p>",
         "enableLabel": true,
         "autoRefresh": true,
-        "autoInterval": 0.5,
+        "autoInterval": 0.3,
         "label": "Make Selection"
       },
       "id": "widget_92",
@@ -1040,7 +1043,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": true,
-        "size": "432px",
+        "size": "438px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1345,13 +1348,7 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "Get This Work",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1664057589813.png"
+    "portalUrl": "https://pst-lovesdogs.maps.arcgis.com"
   },
   "sharedThemeVariables": null,
   "pageStructure": [
@@ -1360,7 +1357,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1664168919733,
+  "timestamp": 1664350707759,
   "originExbVersion": "1.9.0",
   "header": {
     "layout": {

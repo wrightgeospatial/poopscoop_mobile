@@ -2,7 +2,7 @@
 	"darkTheme": true,
 
 	"body": {"fontSize": "16px"},
-	"form": {"fontSize": "40px"}
+	"form": {"fontSize": "16px%"}
 	
 
 }
